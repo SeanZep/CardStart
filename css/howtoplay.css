@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 70px;
+    font-family: Droid Sans; 
+  }
+
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 10px;
+    text-align: center;
+    background-color: #C4C4C4;
+  }
+  
