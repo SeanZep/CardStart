@@ -1,3 +1,139 @@
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: #FFFAD0;
+}
+
+li, a, button {
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 20px 5%;
+}
+
+.logo {
+    cursor: pointer;
+    justify-content: flex-start;
+}
+
+.navlinks {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.navlinks li {
+    display: inline-block;
+    justify-content: flex-end;
+    padding: 0px 40px;
+}
+
+.navlinks li a:hover {
+    color: #6C5CE7;
+}
+
+button {
+    padding: 9px 25px;
+    background-color:#6C5CE7;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #6C5CE7;
+    opacity: 0.8;
+}
+
+body {
+    background-color: #FFFDEB;
+}
+
+#about {
+    font-size: 36px;
+	font-family: "Droid Sans";
+	color: #000000;
+}
+
+#info1 {
+    color: white;
+}
+
+#info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* help */
+    display: flex;
+    flex-direction: column;
+    
+
+    width: 300px;
+    padding-top: 350px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #6C7AF3;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card h3 {
+    align-self: flex-start;
+}
+
+#info2 button {
+    background-color: #FFCD1A;
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+    font-family: "Droid Sans";
+    margin: 4px 2px;
+    border-radius: 60px;
+}
+
+#info1 p {
+    font-family: "Playfair Display";
+    text-align: center;
+}
+
+#info2 p {
+    word-wrap: break-word;
+    width: 800px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+  }
+  
+  .column {
+    float: left;
+  }
+  
+  .left {
+    width: 30%;
+  }
+  
+  .right {
+    width: 60%;
+  }
