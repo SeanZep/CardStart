@@ -8,7 +8,7 @@ body {
     background-color: #FFFAD0;
 }
 
-li, a, button {
+li, a, button, .create {
     font-weight: 500;
     font-size: 16px;
     text-decoration: none;
@@ -19,30 +19,28 @@ header {
     background-color: white;
     align-items: center;
     padding: 20px 5%;
+    width: 100%;
 }
 
 .logo {
     cursor: pointer;
     justify-content: flex-start;
+    display: inline-block;
 }
 
 .navlinks {
-    list-style: none;
-    padding-left: 20px;
-}
-
-.navlinks li {
+    padding-left: 40px;
     display: inline-block;
-    justify-content: flex-end;
-    padding: 0px 40px;
 }
 
-.navlinks li a:hover {
+.navlinks:hover {
     color: #6C5CE7;
 }
 
-button {
+.create {
     padding: 9px 25px;
+    margin-left: auto;
+    color: white;
     background-color:#6C5CE7;
     border: none;
     border-radius: 50px;
@@ -50,7 +48,7 @@ button {
     transition: all 0.3s ease 0s;
 }
 
-button:hover {
+.create:hover {
     background-color: #6C5CE7;
     opacity: 0.8;
 }
