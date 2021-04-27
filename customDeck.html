@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Droid+Sans" />
-        <link rel="stylesheet" href="css/styles.css">
-        <!-- For responsiveness -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CardStart</title>
+        <title>Explore Decks</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -17,23 +11,15 @@
             <a class="navlinks" href="howtoplay.html">How To Play</a>
             <a class="create" href="customDeck.html">Create Your Own Deck!</a>
         </header>
-
-        <div class="row" id="about">
-            <div class="card" id="info1">
-                <h3>What is CARDSTART?</h3>
-                <p>We know that Opening Up & Engaging in Meaningful Conversations can be Difficult</p>
-            </div>
-            <div class="column right" id="info2">
-                <p>
-                    <b>CARDSTART</b> provides a range of decks for any situation. 
-                    We remove the worrying thoughts in meaningful conversations so that you can focus on what’s more important: 
-                    truly listening and talking to others. <br><br>So start making deeper connections today with by exploring all our deck options right <a href="explore.html">here</a>. 
-                    Don’t see one that you like? Help the community out by making your own deck here!
-                </p>
-                <button><a href="explore.html">Explore Decks</a></button>
-            </div>
-        </div>
-        
+    
+        <h2>Create New Deck</h2>
+        <form>
+            <input type="text" placeholder="Enter name here..." id = "name_field">
+            <br>
+            <input type="text" placeholder="Enter description here..." id = "desc_field">
+            <br>
+            <button id="submit" onclick="storeData()">Create</button>
+        </form>
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
 
@@ -59,6 +45,6 @@
             firebase.initializeApp(firebaseConfig);
             firebase.analytics();
           </script>
-        <script src="./js/script.js"></script>
+        <script src="./js/custom.js"></script>
     </body>
 </html>
