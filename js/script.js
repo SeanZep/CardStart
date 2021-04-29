@@ -3,7 +3,7 @@ var db = firebase.firestore();
 
 
 
-function storeData() {
+/*function storeData() {
     db.collection("decks").doc().set({
         name: "TestUp",
         user: "CardStart Team"
@@ -14,4 +14,4 @@ function storeData() {
     });
 }
 
-storeData();
+storeData();*/
