@@ -12,14 +12,20 @@
             <a class="create" href="customDeck.html">Create Your Own Deck!</a>
         </header>
     
-        <h2>Explore Decks!</h2>
-        <div class="row" id="about"></div>
+        <h2>Create New Deck</h2>
+        <form>
+            <input type="text" placeholder="Enter name here..." id = "name_field">
+            <br>
+            <input type="text" placeholder="Enter description here..." id = "desc_field">
+            <br>
+            <button id="submit" onclick="storeData()">Create</button>
+        </form>
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
 
         <!-- TODO: Add SDKs for Firebase products that you want to use
             https://firebase.google.com/docs/web/setup#available-libraries -->
-        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+        <!-- <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>-->
 
         <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
 
@@ -37,8 +43,8 @@
             };
             // Initialize Firebase
             firebase.initializeApp(firebaseConfig);
-            firebase.analytics();
+            //firebase.analytics();
           </script>
-        <script src="./js/explore.js"></script>
+        <script src="./js/custom.js"></script>
     </body>
 </html>
