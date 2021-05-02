@@ -124,14 +124,14 @@
 /* Position the "next button" to the right */
 .next {
   position: absolute;
-  right: 430px;
+  right: 400px;
   border-radius: 3px 0 0 3px;
 }
 
 /* Position the "next button" to the right */
 .prev {
   position: absolute;
-  left: 430px;
+  left: 400px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -154,7 +154,7 @@
 .question {
   font-size: 2vw;
   color: #FFFAD0;
-  margin-top: 200px;
+
 
 }
 

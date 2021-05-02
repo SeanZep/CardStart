@@ -1,7 +1,12 @@
-var db = firebase.firestore();
 
-const list_div = document.querySelector(".slideshow-container");
+// const list_div = document.querySelector(".slideshow-container");
 
+// db.collection("decks").doc("dropbox").collection("dropboxq").doc("dropboxq").get().then((querySnapshot) => {
+//     querySnapshot.forEach((doc) => {
+//         list_div.innerHTML += "<div class = 'mySlides'> <p class = 'author'>" + 
+//         doc.data().test + "</p>" + "</div>";
+//     });
+// });
 
 
 var slideIndex = 1;
