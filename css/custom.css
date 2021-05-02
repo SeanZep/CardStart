@@ -1,0 +1,118 @@
+#name_field, #desc_field {
+    display: flex;
+    margin-left: 60px;
+    margin-right: auto;
+    margin-top: 10px;
+
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+
+    min-width: 50%;
+    min-height: fit-content;
+    font-family: 'Lato';
+}
+
+h2 {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#submit {
+    margin-left: 60px;
+
+    background-color: #FFCD1A;
+    border: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 60px;
+    width: fit-content;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#submit:hover {
+    background-color: #FFCD1A;
+    opacity: 0.8;
+}
+
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 25px;
+    text-align: center;
+    background-color:  white;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lato';
+
+    display: flex;
+    flex-direction: column;
+
+    height: 370px;
+    width: 375px;
+    border-radius: 25px;
+  }
+
+  #card2 {
+    background-color:  #6C7AF3;
+  }
+
+  #more {
+    margin: 45px 20px;
+      font-size: 200px;
+      color: white;
+      text-align: center;
+      background-color: #6C7AF3;
+      border: transparent;
+  }
+
+  #more:hover {
+    color: white;
+    opacity: 0.8;
+    border: transparent;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+  }
+
+  #question {
+      color: #6C7AF3;
+      font-family: 'Playfair Display';
+      word-wrap: normal;
+
+    justify-content: center;
+    align-items: center;
+
+      font-size: 36px;
+        line-height: 56px;
+
+      background-color: transparent;
+      outline: none;
+      outline-style: none;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: solid #6C7AF3 1px;
+      padding: 20px 10px;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #6C7AF3;
+    opacity: 1; /* Firefox */
+  }
+  
