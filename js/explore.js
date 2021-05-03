@@ -1,11 +1,14 @@
 var db = firebase.firestore();
 
 const list_div = document.querySelector("#about");
-
+let count = 0;  // hard coding in diff pages
+// viewdeck 3 is team bonding
+// view deck 0 is coffeechat
 db.collection("decks").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
-        list_div.innerHTML += "<div class = columns> <div class='cards' id='info1'><a class = 'p' href='viewdeck.html' id='title'>" + 
+        list_div.innerHTML += "<div class = columns> <div class='cards' id='info1'><a class = 'p' href='viewdeck" + count +".html' id='title'>" + 
         doc.data().name + "</a><p>" + doc.data().description + "</p></div></div>";
+        count++;
     });
 });
 

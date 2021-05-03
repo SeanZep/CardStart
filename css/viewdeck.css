@@ -148,7 +148,9 @@
   background: #FFFAD0;
 }
 
-
+q {
+  quotes: none;
+}
 
 /* questions */
 .question {
