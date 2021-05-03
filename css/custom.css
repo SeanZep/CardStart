@@ -110,7 +110,7 @@ h2 {
     grid-gap: 1rem;
   }
 
-  #question {
+  .question {
       color: #6C7AF3;
       font-family: 'Playfair Display';
       word-wrap: normal;
