@@ -150,20 +150,22 @@
 
 q {
   quotes: none;
+  text-align: center;
 }
 
 /* questions */
-.question {
-  font-size: 2vw;
+p.question {
+  font-size: 1.5vw;
   color: #FFFAD0;
-
+  text-align: center;
+  vertical-align: middle;
 
 }
 
 /* Add a blue color to the author */
 /* Author = deckname */
-.author {
+p.author {
   color: #FFFAD0;
-  font-size: 80%;
+  font-size: 90%;
   font-style: italic;
 }
