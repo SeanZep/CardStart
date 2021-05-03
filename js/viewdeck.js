@@ -9,6 +9,12 @@
 // });
 console.log(localStorage);
 
+var questions = localStorage.getItem("currDeck").split(',');
+console.log(questions);
+for (let question of questions) {
+  document.getElementById("all_cards").innerHTML += "<div class='mySlides'><p class='author'>--------------- " + localStorage.deckName + " ---------------</p><q class='question'>" + question + "</q></div>";
+}
+
 var slideIndex = 1;
             showSlides(slideIndex);
             
