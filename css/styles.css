@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+h2 {
+    font-family: "Lato";
+}
+
 body {
     background-color: #FFFAD0;
 }
@@ -132,7 +136,7 @@ hr {
     /*padding: 10px;*/
     margin-left: 50px;
     margin-right: 50px;
-    font-family:"Playfair Display";
+    font-family:"Lato";
     font-size: 36px;
     line-height: 56px;
     text-shadow:  2px 2px 5px  rgba(0,0,0,0.2);
@@ -173,7 +177,7 @@ hr {
 
 
 #info1 p {
-    font-family: "Playfair Display";
+    font-family: "Lato";
     text-align: center;
 }
 
