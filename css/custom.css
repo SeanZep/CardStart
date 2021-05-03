@@ -80,7 +80,10 @@ h2 {
   }
 
   #card2 {
+    display: flex;
     background-color:  #6C7AF3;
+    align-self: flex-end;
+   
   }
 
   #more {
@@ -90,6 +93,8 @@ h2 {
       text-align: center;
       background-color: #6C7AF3;
       border: transparent;
+
+      
   }
 
   #more:hover {
@@ -109,7 +114,8 @@ h2 {
       color: #6C7AF3;
       font-family: 'Playfair Display';
       word-wrap: normal;
-
+      width: 90%;
+      height: 80%;
     justify-content: center;
     align-items: center;
 
@@ -124,6 +130,7 @@ h2 {
       border-right: none;
       border-bottom: solid #6C7AF3 1px;
       padding: 20px 10px;
+
   }
 
   ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */

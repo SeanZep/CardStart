@@ -1,6 +1,7 @@
 var db = firebase.firestore();
 
 const list_div = document.querySelector("#about");
+
 //localStorage.setItem("testKey", "testVal");
 db.collection("decks").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {

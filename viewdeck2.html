@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Playfair+Display" />
+        <link rel="stylesheet" href="css/nav.css" media="screen"/>
+        <link rel="stylesheet" href="css/viewdeck.css">
+        <title>CardStart</title>
+
+    </head>
+
+    <header>
+        <a class="logo" href="index.html">CardStart</a>
+        <a class="navlinks" href="explore.html">Explore Decks</a>
+        <a class="navlinks" href="howtoplay.html">How To Play</a>
+        <a class="create" href="customDeck.html">Create Your Own Deck!</a>
+    </header>
+
+<!-- Slideshow page -->
+    <body>
+        
+
+                <!-- Slideshow container -->
+                
+                <div class="top-clickable">
+                    <a href="explore.html" class="return-button">Return to explore decks</a>
+    
+                    <div class="dropdown">
+                        <button class="dropbtn">Change Layout</button>
+                        <div class="dropdown-content">
+                          <a href="#">Slideshow</a>
+                          <a href="#">Gameboard</a>
+                          <a href="#">View all cards</a>
+                        </div>
+                    </div>
+                </div>
+        <div class="slideshow-container">
+            
+            <!-- Full-width slides/quotes -->
+            <div class="mySlides">
+                <p class="author">------------------- Team Bonding -------------------</p>
+                <q class="question"><br> <br> <br>If you could do any job in
+                    the world what would it be
+                    and why</q>
+            </div>
+                    <div class="mySlides">
+                        <p class="author">------------------- Team Bonding -------------------</p>
+                        <q class="question"><br> <br> <br>IIf you were forced to take
+                    time off from work to learn
+                    a new skill, what would it
+                    be and why?</q>
+            </div>
+        
+            <div class="mySlides">
+                <p class="author">------------------- Team Bonding -------------------</p>
+                <p class="question"><br> <br>What was your dream job
+                    when you were a kid? How
+                    does that compare to what
+                    you’re doing now?
+                     </q>
+            </div>
+
+            <div class="mySlides">
+                <p class="author">------------------- Team Bonding -------------------</p>
+                <q class="question"><br> <br> <br><br>What helps you stay in flow? 
+                     </q>
+            </div>
+
+            <div class="mySlides">
+                <p class="author">------------------- Team Bonding -------------------</p>
+                <q class="question"><br> <br> <br>What is the best career advice
+                    someone has given you? 
+                     </q>
+            </div>
+
+            <div class="mySlides">
+                <p class="author">------------------- Team Bonding -------------------</p>
+                <q class="question"><br> <br> <br>What makes a great project?
+                    Why?
+                     </q>
+            </div>
+            <div class="mySlides">
+                <p class="author">------------------- Team Bonding -------------------</p>
+                <q class="question"><br> <br> <br>What is the toughest challenge
+                    you are facing right now, either
+                    personally or professionally?
+                     </q>
+            </div>
+        
+            <!-- Next/prev buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-analytics.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-firestore.js"></script>
+
+        <script>
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            var firebaseConfig = {
+              apiKey: "AIzaSyAdpYr-qNWCjquvjwpJNElXKIMSqswjtDY",
+              authDomain: "cardstartio.firebaseapp.com",
+              projectId: "cardstartio",
+              storageBucket: "cardstartio.appspot.com",
+              messagingSenderId: "927670156060",
+              appId: "1:927670156060:web:b496aa2fd798505069d8d9",
+              measurementId: "G-YE135CCTJM"
+            };
+            // Initialize Firebase
+            firebase.initializeApp(firebaseConfig);
+            firebase.analytics();
+          </script>
+        
+        
+        <script src="./js/viewdeck.js"></script>
+
+        
+
+
+        
+
+        
+        
+
+    </body>
+</html>
