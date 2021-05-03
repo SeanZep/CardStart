@@ -1,11 +1,13 @@
 var db = firebase.firestore();
 
 const list_div = document.querySelector("#about");
-
+//localStorage.setItem("testKey", "testVal");
 db.collection("decks").get().then((querySnapshot) => {
     querySnapshot.forEach((doc) => {
-        list_div.innerHTML += "<div class = columns> <div class='cards' id='info1'><a class = 'p' href='viewdeck.html' id='title'>" + 
-        doc.data().name + "</a><p>" + doc.data().description + "</p></div></div>";
+        list_div.innerHTML += "<div class = columns> <div class='cards' id='info1'><a class = 'p' onclick=\"localStorage.setItem('currDeck','" 
+        + doc.data().questions + "'); localStorage.setItem('deckName','" 
+        + doc.data().name + "');\" href='viewdeck.html' id='title'>" 
+        + doc.data().name + "<p>" + doc.data().description + "</p></a></div></div>";
     });
 });
 
